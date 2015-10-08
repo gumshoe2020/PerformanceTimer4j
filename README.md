@@ -1,5 +1,5 @@
 # PerformanceTimer4j
-No license.  Do anything you want with this, or not.  It is my fiddling.  No functionality is guaranteed.  Use at your own risk.
+# No license.  Do anything you want with this, or not.  It is my fiddling.  No functionality is guaranteed.  Use at your own risk.
 
 The purpose of this project is to provide a simple, stupid, trivial to use performance timing library for quickly characterizing code performance using a timer mark system utilizing the System.nanoTime().
 
