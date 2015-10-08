@@ -16,6 +16,9 @@ pft.mark() for a straight linear timer in a synchronized code.
 Use:
 pft.fork(0).mark() for multithreaded processes or specific logic forks.
 
+You can fork in two dimensions, down and across up to Integer.MAX_VALUE.  Use with caution when forking down.
+pft.fork(0).fork(1).fork(20).fork(5).fork(8).mark(); may have adverse memory usage.
+
 Use:
 pft.report() to get a JSON formatted string of the data collected.
 
