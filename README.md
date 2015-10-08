@@ -14,3 +14,8 @@ pft.mark() for a straight linear timer in a synchronized code.
 
 Use:
 pft.fork(0).mark() for multithreaded processes or specific logic forks.
+
+Use:
+pft.report() to get a JSON formatted report of the data collected.
+
+Uses Gson.  It is included.
