@@ -16,6 +16,6 @@ Use:
 pft.fork(0).mark() for multithreaded processes or specific logic forks.
 
 Use:
-pft.report() to get a JSON formatted report of the data collected.
+pft.report() to get a JSON formatted string of the data collected.
 
 Uses Gson.  It is included.
